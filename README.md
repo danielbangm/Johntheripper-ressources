@@ -42,6 +42,11 @@ I am going to Download <a href="https://www.kali.org/get-kali/#kali-virtual-mach
 ![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/86cba444-734d-4c1f-9f05-b10484b5d971)
 ![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/a6fc32ac-a9b2-47f6-af76-cf74a6428857)
 
+- Step 3: Test and Benchmarch John the Ripper
+
+I will utilize Kali Linux and the pre-installed “John the Ripper” software. This tool is a command line tool, so I login to Kali Linux and open up a root shell. Once the shell is opened, I execute commands on the command line. Open a “root” shell, and execute the command <b>john –test</b>. The software will begin doing Benchmarking tests. The test will run for several minutes, depending upon the CPU and Memory of your system.
+![image](https://github.com/danielbangm/Johntheripper-ressources/assets/22795502/d6ca8e18-5b14-48c2-a86e-6bc167031c35)
+
 
 
 

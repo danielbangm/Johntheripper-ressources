@@ -42,24 +42,7 @@ I am going to Download <a href="https://www.kali.org/get-kali/#kali-virtual-mach
 ![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/86cba444-734d-4c1f-9f05-b10484b5d971)
 ![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/a6fc32ac-a9b2-47f6-af76-cf74a6428857)
 
--  Step 3: Download and Install Metasploitable2
 
-I am going to download the <a href="https://sourceforge.net/projects/metasploitable/files/Metasploitable2/">Metasploitable2 Zip file</a> and bring up the VMWare session but lauching the ".vmx" file extension with VMWare. This should start the Virtual Machine with Username: msfadmin and Password: msfadmin
-![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/6cd638f3-ba76-4e06-a06f-d815bae30b71)
-
--  Step 4: Start OpenVAS
-
-I will start the OpenVAS Process by bringing up a root console on Kali Linux and type the following command to start the services <b>gvm-start</b> . Then I change the password of the existing admin with the command <b>runuser-u _gvm -- gvmd --user=admin --new-password=admin</b>
-![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/7377d224-a9b5-4bb1-ba00-e211f0bd163d)
-
-- Step 5: Access OpenVAS
-
-To access OpenVAS and take a look, just open up the Firefox Browser and go to the OpenVAS URL: https://127.0.0.1:9392
-![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/7df7224c-621b-459b-a59f-7924f2af0de8)
-Next login with the Username:admin, Password: admin
-Once logged in, we see the main Dashboard view below: <b>Our initial Dashboard will be blank, because a Scan has not been run</b>
-![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/06f6e4c9-e9a6-4f47-a980-0aec78c5fb29)
-![image](https://github.com/danielbangm/Kali-Linux-VM/assets/22795502/64b86d8f-c6e2-40d9-8fa4-1b8f8b43574f)
 
 
 
